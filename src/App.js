@@ -4,7 +4,7 @@ import { BrowserRouter } from 'react-router-dom'
 import Search from "./components/Search";
 import styled from "styled-components";
 import { Link } from 'react-router-dom';
-import { BiFoodMenu } from 'react-icons/bi';
+// import { BiFoodMenu } from 'react-icons/bi';
 // module that gave error
 import './index.css';
 
@@ -14,7 +14,7 @@ function App() {
     <div className="App">
     <BrowserRouter>
     <Nav>
-      <BiFoodMenu />
+      {/* <BiFoodMenu /> */}
       <Logo className="card" to={'/'}> Yummy</Logo>
     </Nav>
       <Search />
