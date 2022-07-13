@@ -10,13 +10,10 @@ The app runs with this api:
 
 https://spoonacular.com/food-api
 
-My api key is not included, and the app won't run without it.
+My API key is included for the app to work. It is a free key, even if someone decided to steal it, it has no real value.
 
-You must sign up on the api website and get an api key. Then, create a .env file and put:
+If you wish to use your own api key, you can get one by signing up on the website. Then, create a .env file and put:
 
 REACT_APP_API_KEY="insert api key here"
 
-Spoonacular allows for about 100 request a day before you need to upgrade to a premium version.
-
-
-** Right now the module react icon bi works locally but not in deployment. Temporarily removing it remedys the issue.
+Spoonacular allows for about ~100 request a day before you need to upgrade to a premium version.
