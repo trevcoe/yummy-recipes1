@@ -15,8 +15,8 @@ function App() {
     <Nav>
     <a href='/'>
     <MdFastfood id="yummyLogo"/>
-      <Logo> Yummy</Logo>
-    </a>
+     </a>
+      <Logo to={'/'}> Yummy</Logo>
     </Nav>
       <Search />
       <Category />
