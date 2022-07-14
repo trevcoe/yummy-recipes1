@@ -13,8 +13,10 @@ function App() {
     <div className="App">
     <BrowserRouter>
     <Nav>
+    <a href='/'>
     <MdFastfood id="yummyLogo"/>
-      <Logo to={'/'}> Yummy</Logo>
+      <Logo> Yummy</Logo>
+    </a>
     </Nav>
       <Search />
       <Category />
