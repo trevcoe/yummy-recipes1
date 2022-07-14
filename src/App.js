@@ -9,7 +9,6 @@ import './index.css';
 
 function App() {
   return (
-    // className="card" makes the image zoom in on hover. It's located in index.css
     <div className="App">
     <BrowserRouter>
     <Nav>
